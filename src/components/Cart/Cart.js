@@ -25,13 +25,12 @@ export default class Store extends Component {
                                 </React.Fragment>
                             );
                         } else {
-                            
+
                             return(
                                 <div className='h-full'>
                                     <EmptyCart />;
                                 </div>
                             )
-                            
                         }
                     }}
                 </ProductConsumer>
