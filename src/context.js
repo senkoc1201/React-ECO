@@ -12,6 +12,8 @@ class ProductProvider extends Component {
         cartSubTotal: 0,
         cartTax: 0,
         cartTotal: 0
+
+        
     };
     componentDidMount() {
         this.setProducts();
